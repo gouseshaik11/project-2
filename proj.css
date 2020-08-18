@@ -1,0 +1,133 @@
+body {}
+
+#main {
+    background-color: rgb(236, 241, 245);
+    padding: 300px 200px;
+    margin: 0 250px;
+    position: relative;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#main2 {
+    background-color: #FEFEFE;
+    padding: 245px;
+    position: absolute;
+    top: 140px;
+    right: 60px;
+    left: 60px;
+    transform: translateY(-90px);
+    border-radius: 30px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    left: -10px;
+    top: -20px;
+}
+
+.top-bar {
+    width: 730px;
+    height: 77px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    border-radius: 30px;
+}
+
+.name {
+    display: flex;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.btn-sig {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 25px;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.image2 {
+    width: 450px;
+    margin-top: 10px;
+    position: fixed;
+    top: 100px;
+    right: 4px;
+}
+
+h1 {
+    position: fixed;
+    left: 60px;
+    top: 140px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.para {
+    position: fixed;
+    bottom: 100px;
+    left: 60px;
+    font-size: 15px;
+}
+
+.main-b {
+    border-radius: 40px;
+    position: fixed;
+    bottom: 10px;
+}
+
+.btn-get {
+    position: fixed;
+    bottom: 60px;
+    left: 55px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #697AFF;
+    border: none;
+    color: white;
+}
+
+.btn-new {
+    position: fixed;
+    left: 64px;
+    top: 120px;
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    color: #697AFF;
+    background-color: #FFE9FA;
+}
+
+#font {
+    position: fixed;
+    bottom: 10px;
+    left: 64px;
+    font-size: 25px;
+    color: #697AFF;
+}
+
+#font1 {
+    position: fixed;
+    bottom: 15px;
+    font-size: 20px;
+    left: 130px;
+}
